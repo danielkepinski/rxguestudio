@@ -50,3 +50,15 @@ nav {
     display: none;
     top: 100%;
 }
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/9.jpeg") no-repeat center center/cover;
+    position: relative;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+}
