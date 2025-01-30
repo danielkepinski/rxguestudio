@@ -80,6 +80,16 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 56px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
 
 /* Hero section */
 #hero {
@@ -88,9 +98,29 @@ nav {
     background: url("../images/9.jpeg") no-repeat center center/cover;
     position: relative;
 }
+#cover-text {
+    color: rgb(245, 245, 245, .6);
+}
 
+/*why us section*/
 #why-us {
     background-color: black;
+    color: #f5f5f5;
+}
+
+#benefits {
+    color: #f5f5f5;
+}
+
+#circle-image-bg {
+    background: url('../images/2.jpeg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /* Media query: large or landscape phones (576px and up) */
