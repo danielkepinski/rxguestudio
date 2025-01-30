@@ -99,7 +99,9 @@ main {
     position: relative;
 }
 #cover-text {
-    color: rgb(245, 245, 245, .6);
+    color: #f5f5f5;
+    margin-top: 400px;
+    margin-left: 150px;
 }
 
 /*why us section*/
@@ -111,7 +113,26 @@ main {
 #benefits {
     color: #f5f5f5;
 }
+#whyus-pride > div
+#whyus-mental >div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
 
+#whyus-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#why-us hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#why-us p {
+    padding: 0 20px;
+}
 #circle-image-bg {
     background: url('../images/2.jpeg') no-repeat top center / cover;
     height: 90vw;
