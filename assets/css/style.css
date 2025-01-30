@@ -16,6 +16,7 @@ body {
     /* Generic project styles */
     color: #f5f5f5;
     font-family: 'Inter', serif;
+    background-color: black;
 }
 
 h1, h2, h3 {
@@ -57,6 +58,10 @@ nav {
     width: 100%;
     background: url("../images/9.jpeg") no-repeat center center/cover;
     position: relative;
+}
+
+#why-us {
+    background-color: black;
 }
 
 /* Media query: large or landscape phones (576px and up) */
