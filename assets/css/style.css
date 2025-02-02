@@ -74,7 +74,7 @@ nav {
 }
 
 #nav-toggle {
-    display: none;
+    <input type="checkbox" id="nav-toggle" aria-label="Toggle navigation">
 }
 
 .nav-toggle-label {
