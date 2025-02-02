@@ -33,7 +33,6 @@ header {
     position: fixed;
     z-index: 100;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -86,7 +85,7 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 56px;
+    margin-top: 50px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
